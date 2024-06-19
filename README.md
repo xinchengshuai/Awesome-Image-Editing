@@ -1,4 +1,31 @@
-# Awesome Image Editing 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/jianzongwu/Awesome-Open-Vocabulary/pulls)
+<br />
+
+<p align="center">
+  <h1 align="center">A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models</h1>
+  <p align="center">
+    <br />
+    <a href="https://github.com/xinchengshuai"><strong>Xincheng Shuai</strong></a>
+    .
+    <a href="https://henghuiding.github.io/"><strong>Henghui Ding</strong></a>
+    ·
+    <a href="http://xingjunma.com/"><strong>Xingjun Ma</strong></a>
+    ·
+    <a href=""><strong>Rongcheng Tu</strong></a>
+    ·
+    <a href="https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en"><strong>Yu-Gang Jiang</strong></a>
+    ·
+    <a href="https://scholar.google.com/citations?user=RwlJNLcAAAAJ"><strong>Dacheng Tao</strong></a>
+    ·
+  </p>
+
+  <p align="center">
+    <a href='https://arxiv.org/abs/'>
+      <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
+    </a>
+  </p>
+<br />
 This is the github repository of our work "A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models". 
 <!-- We categorize the reviewed papers by their editing scenario, and illustrate their inversion and editing algorithms. -->
 

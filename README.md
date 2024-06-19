@@ -62,15 +62,15 @@ This is the github repository of our work "A Survey of Multimodal-Guided Image E
 
   [📄 Null-text Inversion for Editing Real Images using Guided Diffusion Models](https://arxiv.org/abs/2211.09794) | 📖 CVPR 2023 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images) 
 
-  [📄 Negative-prompt Inversion: Fast Image Inversion for Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2305.16807) | 📖 Arxiv 2023 | 🔀$F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code]() 
+  [📄 Negative-prompt Inversion: Fast Image Inversion for Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2305.16807) | 📖 Arxiv 2023 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code]() 
 
-  [📄ProxEdit: Improving Tuning-Free Real Image Editing with Proximal Guidance](https://arxiv.org/pdf/2306.05414) | 📖 WACV 2024 | 🔀$F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code](https://github.com/phymhan/prompt-to-prompt) 
+  [📄ProxEdit: Improving Tuning-Free Real Image Editing with Proximal Guidance](https://arxiv.org/pdf/2306.05414) | 📖 WACV 2024 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code](https://github.com/phymhan/prompt-to-prompt) 
    
-  [📄 Fixed-point Inversion for Text-to-image diffusion models](https://arxiv.org/abs/2312.12540v1) | 📖 Arxiv 2023 | 🔀$F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code]() 
+  [📄 Fixed-point Inversion for Text-to-image diffusion models](https://arxiv.org/abs/2312.12540v1) | 📖 Arxiv 2023 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code]() 
 
-  [📄PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code](https://arxiv.org/abs/2310.01506) | 📖 ICLR 2024 | 🔀$F_{inv}^F+F_{edit}^{Attn}$| [🌐 Code](https://github.com/cure-lab/PnPInversion) 
+  [📄PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code](https://arxiv.org/abs/2310.01506) | 📖 ICLR 2024 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$| [🌐 Code](https://github.com/cure-lab/PnPInversion) 
 
-  [📄 Dynamic Prompt Learning: Addressing Cross-Attention Leakage for Text-Based Image Editing](https://arxiv.org/abs/2309.15664) | 📖 NeurIPS 2023 | 🔀$F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code]() 
+  [📄 Dynamic Prompt Learning: Addressing Cross-Attention Leakage for Text-Based Image Editing](https://arxiv.org/abs/2309.15664) | 📖 NeurIPS 2023 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code]() 
 
   [📄 An Edit Friendly DDPM Noise Space: Inversion and Manipulations](https://arxiv.org/abs/2304.06140) | 📖 CVPR 2024 | 🔀$F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code](https://github.com/inbarhub/DDPM_inversion) 
 

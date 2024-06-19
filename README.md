@@ -16,6 +16,7 @@ This is the github repository of our work "A Survey of Multimodal-Guided Image E
 
 
 ## Table of contents
+Content-Aware Editing
 - [Object Manipulation + Attribute Manipulation](#object-manipulation-and-attribute-manipulation)
 - [Attribute Manipulation](#attribute-manipulation)
 - [Spatial Transformation](#spatial-transformation)
@@ -25,16 +26,17 @@ This is the github repository of our work "A Survey of Multimodal-Guided Image E
 
 <br>
 
+Content-Free Editing
 - [Subject-Driven Customization](#subject-driven-customization)
 - [Attribute-Driven Customization](#attribute-driven-customization)
 
 <br>
 
+Experiment and Data
 - [Data](#data)
 
 
 
-<!-- title（arxiv url） + Publication + inversion & editing + guidance + Code-->
 <br>
 
 ## Object Manipulation and Attribute Manipulation:
@@ -99,7 +101,7 @@ This is the github repository of our work "A Survey of Multimodal-Guided Image E
   
   [📄 pix2pix-zero](https://arxiv.org/abs/2302.03027) | 📖 SIGGRAPH 2023 | 🔀 $F_{inv}^F+F_{edit}^{Score}$ | [🌐 Code](https://github.com/pix2pixzero/pix2pix-zero) 
 
-  [📄 SEGA: Instructing Diffusion using Semantic Dimensions](https://export.arxiv.org/abs/2301.12247v1) | 📖 NeurIPS 2023 | 🔀$F_{inv}^F+F_{edit}^{Score}$ | [🌐 Code]() 
+  [📄 SEGA: Instructing Diffusion using Semantic Dimensions](https://export.arxiv.org/abs/2301.12247v1) | 📖 NeurIPS 2023 | 🔀 $F_{inv}^F+F_{edit}^{Score}$ | [🌐 Code]() 
 
   [📄 The Stable Artist: Steering Semantics in Diffusion Latent Space](https://arxiv.org/abs/2212.06013) | 📖 Arxiv 2022 | 🔀 $F_{inv}^F+F_{edit}^{Score}$ | [🌐 Code]() 
 
@@ -176,6 +178,7 @@ This is the github repository of our work "A Survey of Multimodal-Guided Image E
   [📄 DesignEdit: Multi-Layered Latent Decomposition and Fusion for Unified & Accurate Image Editing](https://arxiv.org/abs/2403.14487) | 📖 Arxiv 2024 | 🔀 $F_{inv}^F+F_{edit}^{Attn}$ | [🌐 Code](https://github.com/design-edit/DesignEdit) 
  
   [📄 Diffusion Self-Guidance for Controllable Image Generation](https://arxiv.org/abs/2306.00986) | 📖 NeurIPS 2023 | 🔀 $F_{inv}^F+F_{edit}^{Score}$ | [🌐 Code](https://dave.ml/selfguidance/) 
+
   [📄 DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models](https://arxiv.org/abs/2307.02421) | 📖 ICLR 2024 | 🔀 $F_{inv}^F+F_{edit}^{Score}$ | [🌐 Code](https://github.com/MC-E/DragonDiffusion) 
 
  

@@ -344,8 +344,8 @@ If you find our survey and repository useful for your research project, please c
 @article{ImgEditing,
       title={A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models}, 
       author={Shuai, Xincheng and Ding, Henghui and Ma, Xingjun and Tu, Rongcheng and Jiang, Yu-Gang and Tao, Dacheng},
-      year={2024},
       journal={arXiv},
+      year={2024}
 }
 ```
 

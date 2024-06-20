@@ -349,3 +349,22 @@ Experiment and Data
 |Arxiv 2023 | [DreamCreature: Crafting Photorealistic Virtual Creatures from Imagination](https://arxiv.org/abs/2311.15477) |  text  | [Code]()|
 |ICLR 2024  | [Language-Informed Visual Concept Learning](https://arxiv.org/abs/2312.03587)  |  text  | [Code](https://cs.stanford.edu/~yzzhang/projects/concept-axes/)|
 |Arxiv 2024  | [pOps: Photo-Inspired Diffusion Operators](https://arxiv.org/abs/2406.01300) |  text  | [Code](https://github.com/pOpsPaper/pOps)|
+
+## Acknowledgement
+
+If you find our survey and repository useful for your research project, please consider citing our paper:
+
+```bibtex
+@article{ImgEditing,
+      title={A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models}, 
+      author={Shuai, Xincheng and Ding, Henghui and Ma, Xingjun and Tu, Rongcheng and Jiang, Yu-Gang and Tao, Dacheng},
+      journal={arXiv},
+      year={2024}
+}
+```
+
+## Contact
+
+```
+henghui.ding[AT]gmail.com
+```

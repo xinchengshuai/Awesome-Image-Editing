@@ -21,7 +21,7 @@
   </p>
 
   <p align="center">
-    <a href='https://arxiv.org/abs/'>
+    <a href='https://arxiv.org/abs/2406.14555'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&' alt='arXiv PDF'>
     </a>
     <!-- <a href='' style='padding-left: 0.5rem;'>
@@ -30,7 +30,7 @@
   </p>
 <br />
 
-This repo is used for recording and tracking recent multimodal-guided image editing methods with T2I models, as a supplement to our [survey](https://arxiv.org/abs/).  
+This repo is used for recording and tracking recent multimodal-guided image editing methods with T2I models, as a supplement to our [survey](https://arxiv.org/abs/2406.14555).  
 If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/xinchengshuai/Awesome-Image-Editing/pulls).
 We will add the missing papers to this repo ASAP.

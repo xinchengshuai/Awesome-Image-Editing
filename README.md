@@ -102,7 +102,6 @@ Experiment and Data
 | Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
 | TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
-| Arxiv 2023 | [Highly Personalized Text Embedding for Image Manipulation by Stable Diffusion](https://arxiv.org/abs/2303.08767) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code](https://github.com/HiPer0/HiPer)|
 | CVPR 2024 | [Focus on Your Instruction: Fine-grained and Multi-instruction Image Editing by Attention Modulation](https://arxiv.org/abs/2312.10113) |    instruction     | $F_{inv}^T+F_{edit}^{Attn}$|[Code](https://github.com/guoqincode/Focus-on-Your-Instruction)|
 | CVPR 2023 | [Imagic: Text-Based Real Image Editing with Diffusion Models](https://arxiv.org/abs/2210.09276) |    text     | $F_{inv}^T+F_{edit}^{Blend}$ |[Code]()|
 | Arxiv 2023 | [Forgedit: Text Guided Image Editing via Learning and Forgetting](https://arxiv.org/abs/2309.10556) |    text     | $F_{inv}^T+F_{edit}^{Blend}$ |[Code](https://github.com/witcherofresearch/Forgedit)|
@@ -161,6 +160,7 @@ Experiment and Data
 |CVPR 2024|     [SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models](https://arxiv.org/abs/2312.06739) |  instruction  | [Code](https://github.com/TencentARC/SmartEdit)|
 |CVPR 2024 | [Referring Image Editing: Object-level Image Editing via Referring Expressions](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Referring_Image_Editing_Object-level_Image_Editing_via_Referring_Expressions_CVPR_2024_paper.html)  |  instruction  | [Code]()|
 
+|Arxiv 2024 | [EditWorld: Simulating World Dynamics for Instruction-Following Image Editing](https://arxiv.org/abs/2405.14785)  |  instruction  | [Code](https://github.com/YangLing0818/EditWorld)|
 <br>
 
 ## Attribute Manipulation:
@@ -275,6 +275,7 @@ Experiment and Data
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
 | ICLR 2023 |  [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618) |    text     | $F_{inv}^T+F_{edit}^{Norm}$  | [Code](https://github.com/rinongal/textual_inversion)|
 |Arxiv 2022 |  [DreamArtist: Towards Controllable One-Shot Text-to-Image Generation via Positive-Negative Prompt-Tuning](https://arxiv.org/abs/2211.11337) |    text     | $F_{inv}^T+F_{edit}^{Norm}$  | [Code]()|
+| Arxiv 2023 | [Highly Personalized Text Embedding for Image Manipulation by Stable Diffusion](https://arxiv.org/abs/2303.08767) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code](https://github.com/HiPer0/HiPer)|
 | Arxiv 2023| [P+: Extended Textual Conditioning in Text-to-Image Generation](https://arxiv.org/abs/2303.09522)  |    text     | $F_{inv}^T+F_{edit}^{Norm}$  | [Code](https://prompt-plus.github.io/)|
 |TOG 2023 | [A Neural Space-Time Representation for Text-to-Image Personalization](https://arxiv.org/abs/2305.15391) |    text     | $F_{inv}^T+F_{edit}^{Norm}$  | [Code](https://github.com/NeuralTextualInversion/NeTI)|
 | CVPR 2023 |   [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242) |    text     | $F_{inv}^T+F_{edit}^{Norm}$  | [Code](https://dreambooth.github.io/)|
@@ -291,6 +292,7 @@ Experiment and Data
 | CVPR 2024 |  [FaceChain-SuDe: Building Derived Class to Inherit Category Attributes for One-shot Subject-Driven Generation](https://arxiv.org/abs/2403.06775) |    text     | $F_{inv}^T+F_{edit}^{Norm}$  | [Code](https://github.com/modelscope/facechain)|
 | Arxiv 2023 |  [ViCo: Detail-Preserving Visual Condition for Personalized Text-to-Image Generation](https://arxiv.org/abs/2306.00971) |    text     | $F_{inv}^T+F_{edit}^{Attn}$  | [Code](https://github.com/haoosz/ViCo)|
 |CVPR 2024 | [DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization](https://arxiv.org/abs/2402.09812) |    text     | $F_{inv}^T+F_{edit}^{Attn}$  | [Code](https://ku-cvlab.github.io/DreamMatcher/)|
+|Arxiv 2024 | [Direct Consistency Optimization for Compositional Text-to-Image Personalization](https://arxiv.org/abs/2402.12004) |    text     | $F_{inv}^T+F_{edit}^{Score}$  | [Code](https://github.com/kyungmnlee/dco)|
 | Arxiv 2024 |  [Pick-and-Draw: Training-free Semantic Guidance for Text-to-Image Personalization](https://arxiv.org/abs/2401.16762) |    text     | $F_{inv}^F+F_{edit}^{Optim}$   | [Code]()|
 
 

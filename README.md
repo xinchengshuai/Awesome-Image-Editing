@@ -21,7 +21,7 @@
   </p>
 
   <p align="center">
-    <a href='https://arxiv.org/abs/'>
+    <a href='https://arxiv.org/abs/2406.14555'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&' alt='arXiv PDF'>
     </a>
     <!-- <a href='' style='padding-left: 0.5rem;'>
@@ -30,7 +30,7 @@
   </p>
 <br />
 
-This repo is used for recording and tracking recent multimodal-guided image editing methods with T2I models, as a supplement to our [survey](https://arxiv.org/abs/).  
+This repo is used for recording and tracking recent multimodal-guided image editing methods with T2I models, as a supplement to our [survey](https://arxiv.org/abs/2406.14555).  
 If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/xinchengshuai/Awesome-Image-Editing/pulls).
 We will add the missing papers to this repo ASAP.
@@ -159,7 +159,6 @@ Experiment and Data
 |ICLR 2024 |  [Guiding Instruction-Based Image Editing via Multimodal Large Language Models](https://arxiv.org/abs/2309.17102) |  instruction  | [Code](https://mllm-ie.github.io/)|
 |CVPR 2024|     [SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models](https://arxiv.org/abs/2312.06739) |  instruction  | [Code](https://github.com/TencentARC/SmartEdit)|
 |CVPR 2024 | [Referring Image Editing: Object-level Image Editing via Referring Expressions](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Referring_Image_Editing_Object-level_Image_Editing_via_Referring_Expressions_CVPR_2024_paper.html)  |  instruction  | [Code]()|
-
 |Arxiv 2024 | [EditWorld: Simulating World Dynamics for Instruction-Following Image Editing](https://arxiv.org/abs/2405.14785)  |  instruction  | [Code](https://github.com/YangLing0818/EditWorld)|
 <br>
 

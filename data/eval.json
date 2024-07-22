@@ -1,0 +1,1402 @@
+{
+    "seed": [
+        9,
+        94,
+        171,
+        276,
+        279,
+        402,
+        500,
+        532,
+        547,
+        605,
+        613,
+        628,
+        675,
+        724,
+        766,
+        775,
+        793,
+        814,
+        915,
+        938,
+        959,
+        963,
+        964,
+        972,
+        1097,
+        1158,
+        1243,
+        1282,
+        1319,
+        1349,
+        1455,
+        1543,
+        1543,
+        1622,
+        1689,
+        1727,
+        1732,
+        1765,
+        1851,
+        1859,
+        1889,
+        1904,
+        2003,
+        2057,
+        2118,
+        2205,
+        2252,
+        2300,
+        2325,
+        2390,
+        2392,
+        2461,
+        2535,
+        2556,
+        2700,
+        2720,
+        2746,
+        2801,
+        2888,
+        3006,
+        3018,
+        3108,
+        3144,
+        3247,
+        3296,
+        3305,
+        3326,
+        3336,
+        3365,
+        3430,
+        3491,
+        3574,
+        3634,
+        3736,
+        3840,
+        3917,
+        3917,
+        3936,
+        3947,
+        4021,
+        4036,
+        4039,
+        4100,
+        4152,
+        4272,
+        4359,
+        4473,
+        4557,
+        4576,
+        4636,
+        4658,
+        4681,
+        4699,
+        4718,
+        4780,
+        4810,
+        4832,
+        4894,
+        4914,
+        4965
+    ],
+    "img-info": {
+        "eval_data/obj_add/single/big_computer.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a computer on the bed",
+                    "tgt": [
+                        "and a cat",
+                        "and a dog",
+                        "and a rabbit",
+                        "and a sunglasses",
+                        "and a comic book"
+                    ]
+                },
+                "obj-rm": {
+                    "src": "a computer on the bed",
+                    "tgt": [
+                        "a computer"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_add/single/big_eagle.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "an eagle in sky",
+                    "tgt": [
+                        "and a butterfly",
+                        "and a kite",
+                        "and a plane",
+                        "and a balloon"
+                    ]
+                },
+                "obj-rm": {
+                    "src": "an eagle in sky",
+                    "tgt": [
+                        "an eagle"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "an eagle in sky",
+                    "tgt": [
+                        "eagle->butterfly",
+                        "eagle->kite"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_add/single/mid_dog2.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a dog in grass",
+                    "tgt": [
+                        "and a bird",
+                        "and a rabbit",
+                        "and a drone"
+                    ]
+                },
+                "obj-rm": {
+                    "src": "a dog in grass",
+                    "tgt": [
+                        "a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a dog in grass",
+                    "tgt": [
+                        "dog->sheep",
+                        "dog->wolf"
+                    ]
+                },
+                "pose-chag": {
+                    "src": "a dog in grass",
+                    "tgt": [
+                        "dog->jumping dog",
+                        "dog->running dog"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a dog in grass",
+                    "tgt": [
+                        "wearing crown<SEP>wearing sunglasses"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_add/single/mid_onion.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a white onion on table",
+                    "tgt": [
+                        "and a picture",
+                        "and a vase",
+                        "and a cup",
+                        "and a mirror"
+                    ]
+                },
+                "obj-rm": {
+                    "src": "a white onion on table",
+                    "tgt": [
+                        "a white onion"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a white onion on table",
+                    "tgt": [
+                        "onion->apple",
+                        "onion->box"
+                    ]
+                },
+                "attr-chag": {
+                    "src": "a white onion on table",
+                    "tgt": [
+                        "white onion->red onion",
+                        "white onion->black onion"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_add/single/small_chair.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a chair on sand",
+                    "tgt": [
+                        "and a balloon",
+                        "and a sun",
+                        "and a plane",
+                        "and a dog"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_add/single/small_sea.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a sea",
+                    "tgt": [
+                        "a boat",
+                        "a ship",
+                        "a seagull",
+                        "a whale"
+                    ]
+                },
+                "style-chag": {
+                    "src": "a sea",
+                    "tgt": [
+                        "in van goph style",
+                        "in comic style"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a sea",
+                    "tgt": [
+                        "a boat<SEP>a seagull",
+                        "a whale<SEP>a seagull",
+                        "a whale<SEP>a seagull<SEP>a ship"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_add/multi/big_cat.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a cat",
+                    "tgt": [
+                        "wearing sunglasses",
+                        "wearing scarf",
+                        "wearing hat",
+                        "wearing mask"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a cat",
+                    "tgt": [
+                        "wearing sunglasses<SEP>wearing mask",
+                        "wearing hat<SEP>wearing scarf",
+                        "wearing sunglasses<SEP>wearing mask<SEP>wearing hat",
+                        "wearing scarf<SEP>wearing mask<SEP>wearing hat"
+                    ]
+                } 
+            }
+        },
+        "eval_data/obj_add/multi/big_table.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a table",
+                    "tgt": [
+                        "a coffee",
+                        "a fork",
+                        "a camera",
+                        "a disk",
+                        "a bread",
+                        "a pencil"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a table",
+                    "tgt": [
+                        "a coffee<SEP>a camera",
+                        "a disk<SEP>a fork",
+                        "a disk<SEP>a coffee<SEP>a fork",
+                        "a camera<SEP>a pencil<SEP>a book"
+                    ]
+                } 
+            }
+        },
+        "eval_data/obj_add/multi/mid_tree.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a tree",
+                    "tgt": [
+                        "and a snowman",
+                        "and a deer",
+                        "and a fox"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a tree",
+                    "tgt": [
+                        "and a deer<SEP>and a snowman",
+                        "and a fox<SEP>and a deer",
+                        "and a fox<SEP>and a deer<SEP>and a snowman"
+                    ]
+                } 
+            }
+        },
+        "eval_data/obj_add/multi/small_beach.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a sand beach",
+                    "tgt": [
+                        "a dog",
+                        "a beach umbrella",
+                        "a coconut",
+                        "a lifebelt"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a sand beach",
+                    "tgt": [
+                        "a beach umbrella<SEP>a coconut",
+                        "a coconut<SEP>a lifebelt",
+                        "a lifebelt<SEP>a dog<SEP>a beach umbrella"
+                    ]
+                } 
+            }
+        },
+        "eval_data/obj_add/multi/small_dog.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a dog near temple",
+                    "tgt": [
+                        "wearing headphone",
+                        "wearing jacket",
+                        "wearing kimono",
+                        "wearing chef hat"
+                    ]
+                },
+                "pose-chag": {
+                    "src": "a dog near temple",
+                    "tgt": [
+                        "dog->jumping dog",
+                        "dog->dancing dog"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a dog near temple",
+                    "tgt": [
+                        "wearing headphone<SEP>wearing kimono",
+                        "wearing chef hat<SEP>wearing jacket",
+                        "wearing headphone<SEP>wearing kimono<SEP>wearing sunglasses"
+                    ]
+                } 
+            }
+        },
+        "eval_data/obj_add/multi/small_road.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a road",
+                    "tgt": [
+                        "a car",
+                        "a dog",
+                        "a postbox"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-add": {
+                    "src": "a road",
+                    "tgt": [
+                        "a car<SEP>a dog",
+                        "a dog<SEP>a postbox",
+                        "a postbox<SEP>a car<SEP>a dog"
+                    ]
+                } 
+            }
+        },
+
+        
+        "eval_data/obj_rm/single/big_basketball.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a basketball on road",
+                    "tgt": [
+                        "a basketball"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a basketball on road",
+                    "tgt": [
+                        "basketball->football"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/single/big_car.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a car on road",
+                    "tgt": [
+                        "a car"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a car on road",
+                    "tgt": [
+                        "car->carriage"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/single/mid_cake.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a cake on plate",
+                    "tgt": [
+                        "a cake"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a cake on plate",
+                    "tgt": [
+                        "cake->bread"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/single/mid_dog.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a dog on ground",
+                    "tgt": [
+                        "a dog"
+                    ]
+                },
+                "pose-chag": {
+                    "src": "a dog on ground",
+                    "tgt": [
+                        "dog->jumping dog"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/single/mid_lion.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a lion",
+                    "tgt": [
+                        "a lion"
+                    ]
+                },
+                "pose-chag": {
+                    "src": "a lion",
+                    "tgt": [
+                        "lion->lying lion"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/single/small_rabbit.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a rabbit in grass",
+                    "tgt": [
+                        "and a sunflower",
+                        "and a chicken",
+                        "and a butterfly"
+                    ]
+                },
+                "obj-rm": {
+                    "src": "a rabbit in grass",
+                    "tgt": [
+                        "a rabbit"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a rabbit in grass",
+                    "tgt": [
+                        "rabbit->squirrel",
+                        "rabbit->cat"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/multi/big_human_dog.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a girl, a dog, in grass",
+                    "tgt": [
+                        "a dog",
+                        "a girl"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a girl, a dog, in grass",
+                    "tgt": [
+                        "a dog<SEP>a girl"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/multi/big+mid_cup_cake.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a cup, a cake, on plates",
+                    "tgt": [
+                        "a cup",
+                        "a cake"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a cup, a cake, on plates",
+                    "tgt": [
+                        "a cup<SEP>a cake"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/multi/big+mid_cup_spoon.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a cup, a spoon, on plate",
+                    "tgt": [
+                        "a cup",
+                        "a spoon"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a cup, a spoon, on plate",
+                    "tgt": [
+                        "a cup<SEP>a spoon"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/multi/big+small_human_dog.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a human, a dog, at sea",
+                    "tgt": [
+                        "a human",
+                        "a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a human, a dog, at sea",
+                    "tgt": [
+                        "human->robot",
+                        "dog->cat"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a human, a dog, at sea",
+                    "tgt": [
+                        "a human<SEP>a dog"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/multi/mid_eagle_bird.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a parrot, an eagle, in sky",
+                    "tgt": [
+                        "a parrot",
+                        "an eagle"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a parrot, an eagle, in sky",
+                    "tgt": [
+                        "eagle->butterfly",
+                        "eagle->kite"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a parrot, an eagle, in sky",
+                    "tgt": [
+                        "a parrot<SEP>an eagle"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rm/multi/mid+small_glasses_plant_watch.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a glasses, a plant, a watch, on table",
+                    "tgt": [
+                        "a glasses",
+                        "a plant",
+                        "a watch"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a glasses, a plant, a watch, on table",
+                    "tgt": [
+                        "a glasses<SEP>a plant",
+                        "a glasses<SEP>a watch",
+                        "a plant<SEP>a watch",
+                        "a glasses<SEP>a plant<SEP>a watch"
+                    ]
+                }
+            }
+        },
+
+
+        "eval_data/obj_rep/single/big_dog.jpg": {
+            "single-edit": {
+                "obj-rep": {
+                    "src": "a dog on road",
+                    "tgt": [
+                        "dog->monkey",
+                        "dog->fox",
+                        "dog->wolf"
+                    ]
+                },
+                "attr-chag": {
+                    "src": "a dog on road",
+                    "tgt": [
+                        "dog->statue dog",
+                        "dog->red dog"
+                    ]
+                },
+                "pose-chag": {
+                    "src": "a dog on road",
+                    "tgt": [
+                        "dog->lying dog",
+                        "dog->jumping dog",
+                        "dog->dancing dog"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/single/big_hat.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a hat on beach",
+                    "tgt": [
+                        "a hat"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a hat on beach",
+                    "tgt": [
+                        "hat->lifebelt"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/single/mid_apple.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "an apple at treetops",
+                    "tgt": [
+                        "an apple"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "an apple at treetops",
+                    "tgt": [
+                        "apple->orange"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/single/mid_leopard.jpg": {
+            "single-edit": {
+                "obj-add": {
+                    "src": "a leopard in grass",
+                    "tgt": [
+                        "and a monkey",
+                        "and a panda"
+                    ]
+                },
+                "obj-rm": {
+                    "src": "a leopard in grass",
+                    "tgt": [
+                        "a leopard"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a leopard in grass",
+                    "tgt": [
+                        "leopard->lion",
+                        "leopard->dog"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/single/small_cat.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a cat in grass",
+                    "tgt": [
+                        "a cat"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a cat in grass",
+                    "tgt": [
+                        "cat->rabbit",
+                        "cat->pig"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/single/small_plane.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a plane in sky",
+                    "tgt": [
+                        "a plane"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a plane in sky",
+                    "tgt": [
+                        "plane->kite",
+                        "plane->ballon",
+                        "plane->bird"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/multi/big+mid_cup_pen_watch.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a coffee, a pencil, a watch, on table",
+                    "tgt": [
+                        "a coffee",
+                        "a watch",
+                        "a pencil"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a coffee, a pencil, a watch, on table",
+                    "tgt": [
+                        "coffee->beer",
+                        "pencil->fork",
+                        "watch->ruler"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a coffee, a pencil, a watch, on table",
+                    "tgt": [
+                        "a coffee<SEP>a watch",
+                        "a pencil<SEP>a coffee",
+                        "a coffee<SEP>a watch<SEP>a pencil"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a coffee, a pencil, a watch, on table",
+                    "tgt": [
+                        "coffee->beer<SEP>pencil->fork",
+                        "pencil->fork<SEP>watch->ruler",
+                        "pencil->fork<SEP>coffee->beer<SEP>watch->ruler"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/multi/big+mid_umbrella_dog.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a sunshade, a dog, under sunshine",
+                    "tgt": [
+                        "a sunshade",
+                        "a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a sunshade, a dog, under sunshine",
+                    "tgt": [
+                        "sunshade->tree",
+                        "sunshade->mushroom",
+                        "dog->pig",
+                        "dog->cat"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a sunshade, a dog, under sunshine",
+                    "tgt": [
+                        "a sunshade<SEP>a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a sunshade, a dog, under sunshine",
+                    "tgt": [
+                        "sunshade->tree<SEP>dog->pig",
+                        "sunshade->mushroom<SEP>dog->cat"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/multi/big+mid+small_hat_sunglasses_earphone.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a hat, a sunglasses, an earphone, on table",
+                    "tgt": [
+                        "a hat",
+                        "a sunglasses",
+                        "an earphone"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a hat, a sunglasses, an earphone, on table",
+                    "tgt": [
+                        "hat->pizza",
+                        "sunglasses->phone",
+                        "earphone->ring"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a hat, a sunglasses, an earphone, on table",
+                    "tgt": [
+                        "a hat<SEP>a sunglasses",
+                        "a hat<SEP>an earphone",
+                        "an earphone<SEP>a sunglasses",
+                        "a hat<SEP>an earphone<SEP>a sunglasses"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a hat, a sunglasses, an earphone, on table",
+                    "tgt": [
+                        "hat->pizza<SEP>sunglasses->phone",
+                        "earphone->ring<SEP>sunglasses->phone",
+                        "hat->pizza<SEP>earphone->ring",
+                        "hat->pizza<SEP>sunglasses->phone<SEP>earphone->ring"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/multi/mid+small_cup_plant.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a cup, a plant, on table",
+                    "tgt": [
+                        "a cup",
+                        "a plant"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a cup, a plant, on table",
+                    "tgt": [
+                        "cup->cake",
+                        "plant->kettle"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a cup, a plant, on table",
+                    "tgt": [
+                        "a cup<SEP>a plant"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a cup, a plant, on table",
+                    "tgt": [
+                        "cup->cake<SEP>plant->kettle"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/multi/mid+small_human_dog2.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a human, a dog, on ground",
+                    "tgt": [
+                        "a human",
+                        "a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a human, a dog, on ground",
+                    "tgt": [
+                        "human->princess",
+                        "human->hunter",
+                        "human->robot",
+                        "dog->horse"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a human, a dog, on ground",
+                    "tgt": [
+                        "a human<SEP>a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a human, a dog, on ground",
+                    "tgt": [
+                        "human->princess<SEP>dog->horse",
+                        "human->hunter<SEP>dog->horse",
+                        "human->robot<SEP>dog->horse"
+                    ]
+                }
+            }
+        },
+        "eval_data/obj_rep/multi/small_human_dog.jpg": {
+            "single-edit": {
+                "obj-rm": {
+                    "src": "a human, a dog, in snow",
+                    "tgt": [
+                        "a human",
+                        "a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a human, a dog, in snow",
+                    "tgt": [
+                        "human->princess",
+                        "human->hunter",
+                        "human->robot",
+                        "dog->horse"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "obj-rm": {
+                    "src": "a human, a dog, in snow",
+                    "tgt": [
+                        "a human<SEP>a dog"
+                    ]
+                },
+                "obj-rep": {
+                    "src": "a human, a dog, in snow",
+                    "tgt": [
+                        "human->princess<SEP>dog->horse",
+                        "human->hunter<SEP>dog->horse",
+                        "human->robot<SEP>dog->horse"
+                    ]
+                }
+            }
+        },
+
+        "eval_data/attr_chag/single/big_buddha.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a golden buddha",
+                    "tgt": [
+                        "golden buddha->red buddha",
+                        "golden buddha->crystal buddha",
+                        "golden buddha->wooden buddha"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/single/big_red_bird.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a red bird in treetops",
+                    "tgt": [
+                        "red bird->wooden bird",
+                        "red bird->statue bird",
+                        "red bird->blue bird"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/single/big_red_leaf.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a red leaf on table",
+                    "tgt": [
+                        "red leaf->green leaf",
+                        "red leaf->yellow leaf",
+                        "red leaf->white leaf"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/single/mid_green_car.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a green car in road",
+                    "tgt": [
+                        "green car->red car",
+                        "green car->lego car"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/single/small_insect.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a red insect at stem",
+                    "tgt": [
+                        "red insect->blue insect",
+                        "red insect->wooden insect"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/single/small_fox.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a white fox in grass",
+                    "tgt": [
+                        "white fox->black fox",
+                        "white fox->statue fox",
+                        "white fox->lego fox"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/multi/big_bird_flower.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "red flower, green bird",
+                    "tgt": [
+                        "red flower->yellow flower",
+                        "green bird->clay bird",
+                        "green bird->origami bird"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "attr-chag": {
+                    "src": "red flower, green bird",
+                    "tgt": [
+                        "red flower->yellow flower<SEP>green bird->origami bird",
+                        "red flower->yellow flower<SEP>green bird->clay bird"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/multi/big_box_ribbon.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a square box, red ribbon",
+                    "tgt": [
+                        "square box->round box",
+                        "red ribbon->green ribbon"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "attr-chag": {
+                    "src": "a square box, red ribbon",
+                    "tgt": [
+                        "square box->round box<SEP>red ribbon->green ribbon"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/multi/big_moon.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a half moon with white color",
+                    "tgt": [
+                        "half moon->full moon",
+                        "moon with white color->moon with red color"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "attr-chag": {
+                    "src": "a half moon with white color",
+                    "tgt": [
+                        "half moon->full moon<SEP>moon with white color->moon with red color"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/multi/big_pumpkin.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a round pumpkin with orange color",
+                    "tgt": [
+                        "round pumpkin->square pumpkin",
+                        "pumpkin with orange color->pumpkin with white color"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "attr-chag": {
+                    "src": "a round pumpkin with orange color",
+                    "tgt": [
+                        "round pumpkin->square pumpkin<SEP>pumpkin with orange color->pumpkin with white color"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/multi/big+small_flower_inset.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "a red insect, yellow flowers",
+                    "tgt": [
+                        "red insect->blue insect",
+                        "yellow flowers->red flowers"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "attr-chag": {
+                    "src": "a red insect, yellow flowers",
+                    "tgt": [
+                        "red insect->blue insect<SEP>yellow flowers->red flowers"
+                    ]
+                }
+            }
+        },
+        "eval_data/attr_chag/multi/mid+small_traffic_leftarrow.jpg": {
+            "single-edit": {
+                "attr-chag": {
+                    "src": "green light, right arrow",
+                    "tgt": [
+                        "green light->red light",
+                        "right arrow->left arrow"
+                    ]
+                }
+            },
+            "multi-edit": {
+                "attr-chag": {
+                    "src": "green light, right arrow",
+                    "tgt": [
+                        "green light->red light<SEP>right arrow->left arrow"
+                    ]
+                }
+            }
+        },
+
+        "eval_data/pose_chag/single/big_dog2.jpg": {
+            "single-edit": {
+                "pose-chag": {
+                    "src": "a dog on table",
+                    "tgt": [
+                        "dog->jumping dog",
+                        "dog->dancing dog"
+                    ]
+                }
+            }
+        },
+        "eval_data/pose_chag/single/big_fox.jpg": {
+            "single-edit": {
+                "pose-chag": {
+                    "src": "a fox in grass",
+                    "tgt": [
+                        "fox->jumping fox",
+                        "fox->dancing fox"
+                    ]
+                }
+            }
+        },
+        "eval_data/pose_chag/single/mid_leopard2.jpg": {
+            "single-edit": {
+                "pose-chag": {
+                    "src": "a leopard",
+                    "tgt": [
+                        "leopard->jumping leopard",
+                        "leopard->dancing leopard"
+                    ]
+                }
+            }
+        },
+        "eval_data/pose_chag/single/mid_sheep.jpg": {
+            "single-edit": {
+                "pose-chag": {
+                    "src": "a sheep in grass",
+                    "tgt": [
+                        "sheep->running sheep",
+                        "sheep->lying sheep"
+                    ]
+                }
+            }
+        },
+        "eval_data/pose_chag/single/small_bird.jpg": {
+            "single-edit": {
+                "pose-chag": {
+                    "src": "a bird in treetops",
+                    "tgt": [
+                        "bird->flying bird"
+                    ]
+                }
+            }
+        },
+        "eval_data/pose_chag/single/small_cow.jpg": {
+            "single-edit": {
+                "pose-chag": {
+                    "src": "a cow in road",
+                    "tgt": [
+                        "cow->running cow",
+                        "cow->lying cow"
+                    ]
+                }
+            }
+        },
+
+        "eval_data/style_chag/bridge.jpg": {
+            "single-edit": {
+                "style-chag": {
+                    "src": "a bridge",
+                    "tgt": [
+                        "in comic style",
+                        "in van goph style",
+                        "in penciled style",
+                        "in oil painting style",
+                        "in origami style",
+                        "in lego style"
+                    ]
+                }
+            }
+        },
+        "eval_data/style_chag/building.jpg": {
+            "single-edit": {
+                "style-chag": {
+                    "src": "buildings",
+                    "tgt": [
+                        "in comic style",
+                        "in van goph style",
+                        "in penciled style",
+                        "in oil painting style",
+                        "in origami style",
+                        "in lego style"
+                    ]
+                }
+            }
+        },
+        "eval_data/style_chag/ferris_wheel.jpg": {
+            "single-edit": {
+                "style-chag": {
+                    "src": "ferris wheel",
+                    "tgt": [
+                        "in comic style",
+                        "in van goph style",
+                        "in penciled style",
+                        "in oil painting style",
+                        "in origami style",
+                        "in lego style"
+                    ]
+                }
+            }
+        },
+        "eval_data/style_chag/forest.jpg": {
+            "single-edit": {
+                "style-chag": {
+                    "src": "forest",
+                    "tgt": [
+                        "in comic style",
+                        "in van goph style",
+                        "in penciled style",
+                        "in oil painting style",
+                        "in origami style",
+                        "in lego style"
+                    ]
+                }
+            }
+        },
+        "eval_data/style_chag/mountain.jpg": {
+            "single-edit": {
+                "style-chag": {
+                    "src": "mountain",
+                    "tgt": [
+                        "in comic style",
+                        "in van goph style",
+                        "in penciled style",
+                        "in oil painting style",
+                        "in origami style",
+                        "in lego style"
+                    ]
+                }
+            }
+        },
+        "eval_data/style_chag/grass.jpg": {
+            "single-edit": {
+                "style-chag": {
+                    "src": "grass",
+                    "tgt": [
+                        "in comic style",
+                        "in van goph style",
+                        "in penciled style",
+                        "in oil painting style",
+                        "in origami style",
+                        "in lego style"
+                    ]
+                }
+            }
+        }
+    },
+    "eval-metric": {
+        "consistency": [
+            "clip-i",
+            "dino",
+            "lpips",
+            "ssim",
+            "psnr",
+            "mse",
+            "structure_distance"
+        ],
+        "semantic": [
+            "clip-t",
+            "clip-score",
+            "dir-clip"
+        ],
+        "preference": [
+            "pick-a-pic"
+        ]
+    },
+    "eval-method": {
+        "leditsplusplus": {
+            "env-vars": {
+                "CUDA_VISIBLE_DEVICES": "0",
+                "PYTHONUNBUFFERED": "1"
+            },
+            "conda-name": "sxc-diffusers",
+            "command": [
+                "python3",
+                "/home/ubuntu_user/sxc/leditsplusplus/eval_batch.py",
+                "--edit_threshold",
+                "0.75",
+                "--scale_pos",
+                "7.5",
+                "--scale_neg",
+                "-4"
+            ]
+        },
+        "dds": {
+            "env-vars": {
+                "CUDA_VISIBLE_DEVICES": "1",
+                "PYTHONUNBUFFERED": "1"
+            },
+            "conda-name": "sxc-diffusers",
+            "command": [
+                "python3",
+                "/home/ubuntu_user/sxc/my-p2p-main/eval_batch_dds.py",
+                "--num_iters",
+                "500"
+            ]
+        },
+        "nti": {
+            "env-vars": {
+                "CUDA_VISIBLE_DEVICES": "2",
+                "PYTHONUNBUFFERED": "1"
+            },
+            "conda-name": "image-editing",
+            "command": [
+                "python3",
+                "/home/ubuntu_user/sxc/my-p2p-main/eval_batch_nti.py",
+                "--cross_replace_steps", "1.0",
+                "--self_replace_steps", "0.3",
+                "--use_blend", "True",
+                "--eq_params_pos","2", 
+                "--eq_params_neg", "-2"
+            ]
+        }
+    }
+}

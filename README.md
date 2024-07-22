@@ -38,8 +38,8 @@ We will add the missing papers to this repo ASAP.
 <!-- We categorize the reviewed papers by their editing scenario, and illustrate their inversion and editing algorithms. -->
 
 
- <!-- ### 🔥News -->
-
+ ### 🔥News
+[1] We have uploaded our evaluation dataset!!
 
 
 ### 🔥Highlight!!
